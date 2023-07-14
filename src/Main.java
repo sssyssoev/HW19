@@ -9,5 +9,8 @@ public class Main {
         System.out.println("Lermontov.name = " + lermontov.getAuthorName()+ " "  + lermontov.getAuthorSurname()+ " " + Borodino.getBookName()+ "  " + Borodino.getBookYear());
         Borodino.setBookYear(2020);
         System.out.println(Borodino.getBookName() + "  было переиздано в  " +Borodino.getBookYear() +" году");
+        System.out.println(lermontov.equals(nosov));
+        System.out.println("lermontov hash"+ lermontov.hashCode());
+        System.out.println(lermontov.toString());
     }
 }
